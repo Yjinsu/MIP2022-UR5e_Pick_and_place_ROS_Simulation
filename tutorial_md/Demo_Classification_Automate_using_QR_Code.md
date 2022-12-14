@@ -9,8 +9,8 @@
 데모 구현을 위한 사전 환경 설정은, 아래의 링크를 참조하십시오.
 
 - Ubuntu 18.04 설치 : [Click This Link](https://ykkim.gitbook.io/dlip/installation-guide/ubuntu/ubuntu-18.04-installation)
-- UR5e 초기 설정 : [Click This Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/UR5e/UR5e_Maunal.md)
-- QR 코드 리더기 패키지 다운로드 : [Click This Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Trouble_Shooting.md)
+- UR5e 초기 설정 : [Click This Link](https://github.com/Yjinsu/MIP2022-UR5e_Pick_and_place_ROS_Simulation/blob/main/tutorial_md/Maunal_UR5e.md)
+- QR 코드 리더기 패키지 다운로드 : [Click This Link](https://github.com/Yjinsu/MIP2022-UR5e_Pick_and_place_ROS_Simulation/blob/main/tutorial_md/ROS_Trouble_Shooting.md)
 - 컨베이어 벨트 환경 구축 :
 
 <br>

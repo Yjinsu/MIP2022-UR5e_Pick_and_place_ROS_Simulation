@@ -232,7 +232,7 @@ cout<<currentPose<<endl;
 
 ### 0. Python 파일 형식 변경
 
-본 프로젝트에서는, Image Processing 과정에서 Python 언어를 사용했습니다.
+본 프로젝트에서는, Image Processing 과정에서 Python 언어를 사용했습니다. <br>
 ROS에서 python 파일을 실행시키기 위해서는, 파일의 확장자를 변경해 주어야 합니다.
 
 터미널을 켜고, python 스크립트 파일이 위치한 폴더로 이동한 뒤 아래의 명령어를 입력합니다.

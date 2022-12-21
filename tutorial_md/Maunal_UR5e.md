@@ -13,7 +13,7 @@
 
 본 프로젝트에서 UR5e를 사용하기 위해서는, ROS 설치가 선행되어야 합니다.
 
-[Click this link]()
+**[Click this link](https://github.com/Yjinsu/MIP2022-UR5e_Pick_and_place_ROS_Simulation/blob/main/tutorial_md/Maunal_ROS.md)**
 
 
 
@@ -94,10 +94,10 @@ cat ~/.bashrc
 sudo gedit ~/.bashrc 
 ```
 
-#### 4. 조인트를 조절할 수 있는 컨트롤러 다운로드 (Skip)
+#### 4. 조인트를 조절할 수 있는 컨트롤러 다운로드
 
-해당 부분 또한, 본 md파일의 작성자가 src.zip 파일을 만드는 과정에서 수행한 과정을 기록한 것입니다. <br>
-zip 파일 안에 이미 포함된 부분이므로, 생략해도 좋습니다.
+로봇의 joint 각각을 수작업으로 조절하고 싶다면, 아래의 코드를 터미널에 입력합니다.
+개인적으로, 해당 컨트롤러를 활용해 로봇을 제어하는 것은 권장하지 않습니다 (안전성 문제 때문)
 
 ```
 sudo apt install ros-melodic-rqt-joint-trajectory-controller 

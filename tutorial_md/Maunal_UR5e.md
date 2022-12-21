@@ -61,6 +61,21 @@ rosdep install --from-paths src --ignore-src -y
 catkin_make
 ```
 
+#### Catkin_make 오류 발생 시???
+
+본 프로젝트에 업로드 된 src 파일은, UR5e를 활용한 자동화 공정을 구축하기 위한 파일입니다. <br>
+커스텀 메시지를 생성하고 이를 활용하여 로봇을 제어하였는데, 이 커스텀 메시지로 인해 Catkin_make 오류가 발생함을 확인했습니다. <br>
+
+Catkin_make를 반복 실행해 보셨을 때, **"PartList.h"** 관련 문제로 Catkin_make가 되지 않는다면, <br>
+src/ur_interface/closed_loop_system.cpp <br>
+위 경로상에 있는 close_loop_system.cpp 파일을 연 뒤 첫번째 줄에 있는 include 구문을 주석 처리한 뒤 catkin_make를 수행하시기 바랍니다.
+<br>
+
+해당 절차를 진행하실 경우, catkin_make가 잘 되다가 끝단 부분에서 에러가 다수 발생하며 다시 catkin_make가 중단될 것입니다.
+그 경우에는, close_loop_system.cpp 파일을 연 뒤 앞서 주석 처리했던 첫번째 줄의 include 구문을 주석 해제하십시오.
+그 이후 다시 catkin_make를 수행하면, 정상적으로 진행될 것입니다.
+
+
 #### 2-2. Git Clone (Skip)
 
 본 md파일의 작성자가 src.zip 파일을 만드는 과정에서 수행한 과정을 기록하였습니다. <br>

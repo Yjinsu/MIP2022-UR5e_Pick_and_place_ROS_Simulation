@@ -11,7 +11,7 @@
 - Ubuntu 18.04 설치 : [Click This Link](https://ykkim.gitbook.io/dlip/installation-guide/ubuntu/ubuntu-18.04-installation)
 - UR5e 초기 설정 : [Click This Link](https://github.com/Yjinsu/MIP2022-UR5e_Pick_and_place_ROS_Simulation/blob/main/tutorial_md/Maunal_UR5e.md)
 - QR 코드 리더기 패키지 다운로드 : [Click This Link](https://github.com/Yjinsu/MIP2022-UR5e_Pick_and_place_ROS_Simulation/blob/main/tutorial_md/ROS_Trouble_Shooting.md)
-- 컨베이어 벨트 환경 구축 :
+- 컨베이어 벨트 환경 구축 : [Click This Link](https://github.com/Sanghyeon-K/2022-2_MCE_Capstone_AutomationSystem/blob/main/Automatic%20Classification%20%26%20Pick-and-Place/Automatic%20Classification%20%26%20Pick-and-Place%20Demo%20Tutorial.md)
 
 <br>
 
